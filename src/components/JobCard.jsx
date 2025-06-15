@@ -2,9 +2,9 @@ import { Clock, MapPin, Bookmark } from "lucide-react";
 
 const JobCard = ({ logo, title, company, location, time, applicants, isPromoted }) => {
   return (
-    <div className="w-full max-w-xs rounded-lg border border-gray-200 bg-white p-4 shadow-sm">
+    <div className="w-full max-w-xs rounded-lg border border-gray-200 bg-white p-4 transition-transform duration-300 hover:scale-105 hover:shadow-md">
       {isPromoted && (
-        <span className="mb-1 inline-block text-xs font-semibold text-gray-600">
+        <span className="mb-1 inline-block text-xs font-semibold text-black">
           Promoted
         </span>
       )}
@@ -32,7 +32,7 @@ const JobCard = ({ logo, title, company, location, time, applicants, isPromoted 
       </div>
 
       <div className="mt-4 flex items-center">
-        <button className="mr-4 w-full rounded-md bg-primary px-4 py-1.5 text-sm font-medium text-white hover:bg-blue-700">
+        <button className="mr-4 w-full rounded-md bg-primary px-4 py-1.5 text-sm font-medium text-white cursor-pointer hover:bg-blue-700">
           Apply Now
         </button>
         <Bookmark className="h-6 w-6 cursor-pointer text-gray-400 hover:text-blue-600" />

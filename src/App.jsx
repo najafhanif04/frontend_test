@@ -29,7 +29,7 @@ function App() {
         </aside>
 
         {/* Main Content*/}
-        <main className="w-full lg:w-4/5 p-4">
+        <main className="w-full lg:w-4/5 pl-4 pt-2">
           <MainContent />
         </main>
       </div>

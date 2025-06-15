@@ -46,7 +46,7 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="Search"
-              className="pl-9 pr-4 py-2 bg-gray-50 text-sm rounded-md focus:outline-none w-72"
+              className="pl-12 pr-4 py-2 bg-gray-50 font-medium text-sm rounded-md focus:outline-none w-72"
             />
           </div>
 
